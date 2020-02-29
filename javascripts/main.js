@@ -1,7 +1,9 @@
-import form from './components/bearForm.js';
+import river from './components/river.js';
+import bearForm from './components/bearForm.js';
 
 const init= () => {
-    form.newBearForm();
+    bearForm.newBearForm();
+    river.bearBuilder();
 };
 
 init();
