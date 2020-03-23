@@ -3,13 +3,24 @@ const bears = [
 
     {
       id: "bear1",
-    name: "Bobby",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kamchatka_Brown_Bear_near_Dvuhyurtochnoe_on_2015-07-23.jpg"
+    name: "Papa",
+    imageUrl: "./img/bear2.jpg",
+    catch: [''],
+    missed: [''],
     },
     {
       id: "bear2",
-    name: "Candy",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kamchatka_Brown_Bear_near_Dvuhyurtochnoe_on_2015-07-23.jpg"
+    name: "Momma",
+    imageUrl: "./img/bear1.jpg",
+    catch: [''],
+    missed: [''],
+    },
+    {
+    id: "bear2",
+    name: "Baby",
+    imageUrl: "./img/bear3.png",
+    catch: [''],
+    missed: [''],
     },
 ];
 
@@ -17,9 +28,7 @@ const addBear = (newBear) => {
     bears.push(newBear);   
   };
 
-
-  const getBears = () =>{
-  
+  const getBears = () => {
       return bears;
   }
 
